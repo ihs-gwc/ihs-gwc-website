@@ -1,2 +1,3 @@
 # ihs-girls-who-code
-Website - Irvington Girls Who Code
+Website for Irvington Girls Who Code
+ihsgirlswhocode.com
