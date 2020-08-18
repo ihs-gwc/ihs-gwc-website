@@ -1,2 +1,2 @@
 # ihs-girls-who-code
-[Website for Irvington Girls Who Code](ihsgirlswhocode.com)
+[Website for Irvington Girls Who Code](https://www.ihsgirlswhocode.com/)
