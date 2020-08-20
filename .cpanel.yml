@@ -2,5 +2,23 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ihsgzapd/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R favicon $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R scss $DEPLOYPATH
+    - /bin/cp about.html $DEPLOYPATH
+    - /bin/cp blog.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp curriculum.html $DEPLOYPATH
+    - /bin/cp events.html $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp prepos-6.config $DEPLOYPATH
+    - /bin/cp Quarter1.html $DEPLOYPATH
+    - /bin/cp Quarter2.html $DEPLOYPATH
+    - /bin/cp Quarter3.html $DEPLOYPATH
+    - /bin/cp Quarter4.html $DEPLOYPATH
+    - /bin/cp README.md $DEPLOYPATH
+    - /bin/cp recaps.html $DEPLOYPATH
     
