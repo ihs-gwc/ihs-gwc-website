@@ -1,18 +1,25 @@
 <html>
   <head>
-    <title>Title</title>
+    <title>JavaScript Footer Test B</title>
+    <script>
+      $(function(){
+        var includes = $('[data-include]');
+        jQuery.each(includes, function(){
+          var file = 'views/' + $(this).data('include') + '.html';
+          $(this).load(file);
+        });
+      });
+    </script>
+
+    <div data-include="footer"></div>
+
   </head>
   <body>
-    <p><b>Welcome to our web site.</b></p>
+    <h1>Welcome to our web site.</h1>
     <p style='text-align: center;'>
-    We're using PHP to provide you with dynamic content
-    for a better web experience.
+    There should be a footer after this sentence.
     </p>
     <!-- end page content -->
 
-    <?php
-    require "footer.php";
-    ?>
-
-</body>
+  </body>
 </html>
