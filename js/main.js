@@ -280,13 +280,5 @@
 
 
 
-  var loadFooter = function() {
-    	$("#footer").load("footer.html");
-	};
-	loadFooter();
-
-
-
-
 })(jQuery);
 
