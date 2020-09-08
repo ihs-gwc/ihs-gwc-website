@@ -16,10 +16,8 @@ deployment:
     - /bin/cp events.html $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp prepos-6.config $DEPLOYPATH
-    - /bin/cp Quarter1.html $DEPLOYPATH
-    - /bin/cp Quarter2.html $DEPLOYPATH
-    - /bin/cp Quarter3.html $DEPLOYPATH
-    - /bin/cp Quarter4.html $DEPLOYPATH
+    - /bin/cp semester1.html $DEPLOYPATH
+    - /bin/cp semester2.html $DEPLOYPATH
     - /bin/cp README.md $DEPLOYPATH
     - /bin/cp recaps.html $DEPLOYPATH
     
