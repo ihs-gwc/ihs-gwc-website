@@ -1,1 +1,1 @@
-
+Any contributions to this repository are appreciated! Just make sure that if you add a new folder or file that's not inside a folder, update .cpanel.yml to include the folder or file. Otherwise, your changes might not show up on cPanel and the website. If you delete a folder or file that's not inside a folder, make sure to delete it from .cpanel.yml or it might cause errors during deployment.
