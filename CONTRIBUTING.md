@@ -1,5 +1,9 @@
 Contributions to this repository are greatly appreciated!
 
+Jump to:
+[html formatting](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#html-formatting)
+[.cpanel.yml file](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#cpanelyml-file)
+
 # html formatting
 1. Opening tags must match the indentation of closing tags. 
 ```
@@ -42,5 +46,5 @@ Contributions to this repository are greatly appreciated!
 
 7. When in doubt, match the formatting of index.html and/or ask one of the IHS GWC officers. 
 
-# .cpanel.yml
+# .cpanel.yml file
 If you add a new folder or file that's not inside a folder, update .cpanel.yml to include the folder or file. Otherwise, your changes will not show up on cPanel and the website. If you delete a folder or file that's not inside a folder, make sure to delete it from .cpanel.yml or it will cause errors during deployment.
