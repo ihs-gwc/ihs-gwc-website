@@ -2,11 +2,11 @@ Contributions to this repository are greatly appreciated!
 
 # Jump to:
 
-[html formatting](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#html-formatting)
+[HTML formatting](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#html-formatting)
 
 [.cpanel.yml file](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#cpanelyml-file)
 
-# html formatting
+# HTML formatting
 1. Opening tags must match the indentation of closing tags. 
 ```
 <p>
