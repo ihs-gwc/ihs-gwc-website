@@ -16,7 +16,7 @@ Contributions to this repository are greatly appreciated!
 [C. When in doubt](#c-when-in-doubt)
 
 ## A. Indentation and whitespace
-  1. Opening tags must match the indentation of closing tags. 
+  1. Opening tags must match the indentation of closing tags.
   ```
   <p>
     Like this.
@@ -26,12 +26,11 @@ Contributions to this repository are greatly appreciated!
     Not like this.
     </p>
   ```
-    
-    The exception is when you have something like this.
+  The exception is when you have something like this.
 
   `<p> hi </p>`
 
-    In that case the opening and closing tags will just be in the same line.
+  In that case the opening and closing tags will just be in the same line.
 
   2. Nested tags should be indented properly.
   
@@ -59,11 +58,12 @@ Contributions to this repository are greatly appreciated!
 
 ## B. Tags
   1. Don't use <div> and <span> when there are better alternatives. 
-```
+  
+  ```
   <footer> Like this. </footer>
   
   <div class="footer"> Not like this. </div>
-```
+  ```
 
 ## C. When in doubt
   1. When in doubt, match the formatting of index.html and/or ask one of the IHS GWC officers. 
