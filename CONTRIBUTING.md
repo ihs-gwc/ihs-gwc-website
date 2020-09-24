@@ -17,36 +17,37 @@ Jump to:
 
 ## A. Indentation and whitespace
   1. Opening tags must match the indentation of closing tags. 
-    ```
-    <p>
-      Like this.
-    </p>
+  ```
+  <p>
+    Like this.
+  </p>
 
-    <p>
-      Not like this.
-      </p>
-    ```
+  <p>
+    Not like this.
+    </p>
+  ```
     
     The exception is when you have something like this.
 
-    `<p>hi</p>`
+  `<p>hi</p>`
 
     In that case the opening and closing tags will just be in the same line.
 
   2. Nested tags should be indented properly.
-    ```
-    <div>
-      <p>
-        Like this.
-      </p>
-    </div>
-
-    <div>
+  
+  ```
+  <div>
     <p>
-      Not like this.
+      Like this.
     </p>
-    </div>
-    ```
+  </div>
+
+  <div>
+  <p>
+    Not like this.
+  </p>
+  </div>
+  ```
 
   3. Use 2 spaces instead of tabs for every indentation (or set your tab to 2 spaces)
 
@@ -58,10 +59,10 @@ Jump to:
 
 ## B. Tags
   1. Don't use <div> and <span> when there are better alternatives. 
-  ```
+```
   <footer>Like this.</footer>
   <div class="footer">Not like this.</div>
-  ```
+```
 
 ## C. When in doubt
   1. When in doubt, match the formatting of index.html and/or ask one of the IHS GWC officers. 
