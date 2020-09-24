@@ -61,6 +61,7 @@ Jump to:
   1. Don't use <div> and <span> when there are better alternatives. 
 ```
   <footer>Like this.</footer>
+  
   <div class="footer">Not like this.</div>
 ```
 
