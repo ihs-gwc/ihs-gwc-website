@@ -11,7 +11,7 @@ deployment:
     - /bin/cp -R test $DEPLOYPATH
     - /bin/cp about.html $DEPLOYPATH
     - /bin/cp contact.html $DEPLOYPATH
-    - /bin/cp CONTRIBUTIONS.md $DEPLOYPATH
+    - /bin/cp CONTRIBUTING.md $DEPLOYPATH
     - /bin/cp curriculum.html $DEPLOYPATH
     - /bin/cp events.html $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
