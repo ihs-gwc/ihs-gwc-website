@@ -20,3 +20,4 @@ deployment:
     - /bin/cp recaps.html $DEPLOYPATH
     - /bin/cp semester1.html $DEPLOYPATH
     - /bin/cp semester2.html $DEPLOYPATH
+    
