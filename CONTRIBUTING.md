@@ -2,18 +2,18 @@ Contributions to this repository are greatly appreciated!
 
 ### Jump to:
 
-[HTML formatting](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#html-formatting)
+[HTML formatting](#html-formatting)
 
-[.cpanel.yml file](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#cpanelyml-file)
+[.cpanel.yml file](#cpanelyml-file)
 
 # HTML formatting
 ### Jump to:
 
-[A. Indentation and whitespace](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#a-indentation-and-whitespace)
+[A. Indentation and whitespace](#a-indentation-and-whitespace)
 
-[B. Tags](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#b-tags)
+[B. Tags](#b-tags)
 
-[C. When in doubt](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#c-when-in-doubt)
+[C. When in doubt](#c-when-in-doubt)
 
 ## A. Indentation and whitespace
   1. Opening tags must match the indentation of closing tags. 
@@ -29,7 +29,7 @@ Contributions to this repository are greatly appreciated!
     
     The exception is when you have something like this.
 
-  `<p>hi</p>`
+  `<p> hi </p>`
 
     In that case the opening and closing tags will just be in the same line.
 
@@ -60,9 +60,9 @@ Contributions to this repository are greatly appreciated!
 ## B. Tags
   1. Don't use <div> and <span> when there are better alternatives. 
 ```
-  <footer>Like this.</footer>
+  <footer> Like this. </footer>
   
-  <div class="footer">Not like this.</div>
+  <div class="footer"> Not like this. </div>
 ```
 
 ## C. When in doubt
