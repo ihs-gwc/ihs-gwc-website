@@ -1,13 +1,13 @@
 Contributions to this repository are greatly appreciated!
 
-## Jump to:
+### Jump to:
 
 [HTML formatting](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#html-formatting)
 
 [.cpanel.yml file](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#cpanelyml-file)
 
 # HTML formatting
-Jump to:
+### Jump to:
 
 [A. Indentation and whitespace](https://github.com/ihs-gwc/ihs-gwc-website/edit/master/CONTRIBUTING.md#a-indentation-and-whitespace)
 
