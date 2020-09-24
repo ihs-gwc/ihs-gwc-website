@@ -9,11 +9,11 @@ Contributions to this repository are greatly appreciated!
 # HTML formatting
 ### Jump to:
 
-[A. Indentation and whitespace](https://github.com/ihs-gwc/ihs-gwc-website/edit/master/CONTRIBUTING.md#a-indentation-and-whitespace)
+[A. Indentation and whitespace](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#a-indentation-and-whitespace)
 
-[B. Tags](https://github.com/ihs-gwc/ihs-gwc-website/edit/master/CONTRIBUTING.md#b-tags)
+[B. Tags](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#b-tags)
 
-[C. When in doubt](https://github.com/ihs-gwc/ihs-gwc-website/edit/master/CONTRIBUTING.md#c-when-in-doubt)
+[C. When in doubt](https://github.com/ihs-gwc/ihs-gwc-website/blob/master/CONTRIBUTING.md#c-when-in-doubt)
 
 ## A. Indentation and whitespace
   1. Opening tags must match the indentation of closing tags. 
