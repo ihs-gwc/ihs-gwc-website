@@ -15,9 +15,8 @@ deployment:
     - /bin/cp curriculum.html $DEPLOYPATH
     - /bin/cp events.html $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp prepos-6.config $DEPLOYPATH
     - /bin/cp README.md $DEPLOYPATH
     - /bin/cp recaps.html $DEPLOYPATH
     - /bin/cp semester1.html $DEPLOYPATH
     - /bin/cp semester2.html $DEPLOYPATH
-    
+    - /bin/cp prepos-6.config $DEPLOYPATH
