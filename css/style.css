@@ -4623,7 +4623,7 @@ button.close {
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {
     bottom: 0;
     border-top-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-top .arrow::after,
   .bs-popover-auto[x-placement^="top"] .arrow::after {
     bottom: 1px;
@@ -4643,7 +4643,7 @@ button.close {
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
     left: 0;
     border-right-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-right .arrow::after,
   .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
@@ -4660,7 +4660,7 @@ button.close {
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before {
     top: 0;
     border-bottom-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-bottom .arrow::after,
   .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     top: 1px;
@@ -4689,7 +4689,7 @@ button.close {
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
     right: 0;
     border-left-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-left .arrow::after,
   .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;
@@ -7644,8 +7644,8 @@ margin-bottom: 0.5rem;
         border: none;
         color: #fff;
         z-index: 0;
-        letter-spacing: 1px; 
-        right: -40px; 
+        letter-spacing: 1px;
+        right: -40px;
         padding-left: 20px}
         .hero-wrap .forth .text .btn-custom:after {
           position: absolute;
@@ -7815,11 +7815,11 @@ margin-bottom: 0.5rem;
   .btn.btn-primary {
     background: #43d9b1;
     border: 1px solid #43d9b1;
-    color: #fff; }
+    color: #343a40; }
     .btn.btn-primary:hover {
-      border: 1px solid #43d9b1;
+      border: 1px solid #343a40;
       background: transparent;
-      color: #43d9b1; }
+      color: #343a40; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #43d9b1;
       background: transparent;
@@ -8623,11 +8623,12 @@ textarea.form-control {
   border-radius: 5px; }
 
 .contact-section .contact-info p a {
-  color: #fff; }
+  color: #495057;
+  font-size: 14px; }
 
 .contact-section .contact-info p span {
   font-weight: 500;
-  color: #fff; }
+  color: #343a40; }
 
 .block-9 .form-control {
   outline: none !important;
