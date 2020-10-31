@@ -4,6 +4,8 @@ Contributions to this repository are greatly appreciated!
 
 [HTML formatting](#html-formatting)
 
+[Images](#images)
+
 [.cpanel.yml file](#cpanelyml-file)
 
 # HTML formatting
@@ -66,8 +68,27 @@ Contributions to this repository are greatly appreciated!
   ```
 
 ## C. When in doubt
-  1. When in doubt, match the formatting of index.html and/or ask one of the IHS GWC officers. 
+  1. Match the formatting of index.html.
+  
+  2. If there's still an issue, ask one of the IHS GWC officers. 
 
+# Images
+### Jump to:
+
+[A. Image resolution](#a-image-resolution)
+
+[B. When in doubt](#b-when-in-doubt)
+
+## A. Image resolution
+  1. Images should be as small as possible without being blurry. You should scale down the images on your computer instead of using HTML's width and height attributes.
+  
+  2. If you don't know what resolution to use, use 72 ppi.
+
+## B. When in doubt
+  1. Use older images on the site as a reference.
+  
+  2. If there's still an issue, ask one of the IHS GWC officers.
+  
 # .cpanel.yml file
   1. If you add a new folder or file that's not inside a folder, update .cpanel.yml to include the folder or file. Otherwise, your changes will not show up on cPanel and the website. 
 
