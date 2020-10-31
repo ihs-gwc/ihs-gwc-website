@@ -59,7 +59,7 @@ Contributions to this repository are greatly appreciated!
   6. Include a newline at the end of each file.
 
 ## B. Tags
-  1. Don't use <div> and <span> when there are better alternatives. 
+  1. Don't use div and span tags when there are better alternatives. 
   
   ```
   <footer> Like this. </footer>
@@ -80,9 +80,9 @@ Contributions to this repository are greatly appreciated!
 [B. When in doubt](#b-when-in-doubt)
 
 ## A. Image resolution
-  1. Images should be as small as possible without being blurry. You should scale down the images on your computer instead of using HTML's width and height attributes.
+  1. Images should be as small as possible without being blurry. Scale down the images using a photo editing app before using HTML's width and height attributes. This is because images with larger dimensions take longer to load, even if they have been scaled down using HTML. For reference, an image taking up the entire width of the screen should have a width between 1500 and 2500 pixels.
   
-  2. If you don't know what resolution to use, use 72 ppi.
+  2. If you don't know what pixel density to use, use 72 ppi.
 
 ## B. When in doubt
   1. Use older images on the site as a reference.
