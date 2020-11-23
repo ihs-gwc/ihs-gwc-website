@@ -2219,10 +2219,10 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }
 
 .btn-outline-primary {
-  color: #5ce6bc;
+  color: #212529;
   background-color: transparent;
   background-image: none;
-  border-color: #5ce6bc; }
+  border-color: #212529; }
   .btn-outline-primary:hover {
     color: #212529;
     background-color: #5ce6bc;
@@ -3597,7 +3597,9 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;
+  min-width: 200px;
+  max-width: 300px; }
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
@@ -3615,11 +3617,14 @@ input[type="button"].btn-block {
   padding: 1.25rem; }
 
 .card-title {
+  font-weight: 500;
   margin-bottom: 0.75rem; }
 
 .card-subtitle {
+  font-weight: 300;
+  color: #1eaf84;
   margin-top: -0.375rem;
-  margin-bottom: 0; }
+  margin-bottom: 0.5rem; }
 
 .card-text:last-child {
   margin-bottom: 0; }
@@ -4439,11 +4444,11 @@ button.close {
   border-top-right-radius: 0.3rem; }
   .modal-header .close {
     padding: 1rem;
-    margin: -1rem -1rem -1rem auto; }
+    margin: -1rem -1rem -1.25rem auto; }
 
 .modal-title {
   margin-bottom: 0;
-  line-height: 1.5; }
+  line-height: 1; }
 
 .modal-body {
   position: relative;
@@ -4487,7 +4492,7 @@ button.close {
 
 @media (min-width: 992px) {
   .modal-lg {
-    max-width: 800px; } }
+    max-width: 750px; } }
 
 .tooltip {
   position: absolute;
