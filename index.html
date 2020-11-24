@@ -139,44 +139,52 @@
           </div>
           <div class="col-lg-8">
             <div class="row d-md-flex align-items-center">
-                    <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
+              <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="text-center">
                   <div class="text">
                     <strong class="number" data-number="4">0</strong>
                     <span>...number of languages we teach</span>
                   </div>
                 </div>
               </div>
-                         <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
+              <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="text-center">
                   <div class="text">
                     <strong class="number" data-number="19">0</strong>
-                    <span>...and more meetings</span>
+                    <span>...meetings last school year</span>
                   </div>
                 </div>
               </div>
               <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
+                <div class="text-center">
                   <div class="text">
-                    <strong class="number" data-number="120">0</strong>
+                    <strong class="number" data-number="30">0</strong>
                     <span>...and more members</span>
                   </div>
                 </div>
-                        </div>
+              </div>
               <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
+                <div class="text-center">
                   <div class="text">
-                    <strong class="number" data-number="443">0</strong>
-                    <span>...and more days since we were established</span>
+                    <strong id="daysEstablished" class="number" data-number="0">0</strong> <!--data-number increases automatically through JavaScript below-->
+                    <span>...days since we were established</span>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!--Automating "number of days since established" by adding 1 every day-->
+    <script type="text/javascript">
+      var date1 = new Date("5/2/2019");
+      var date2 = new Date();
+      var diffInTime = date2.getTime() - date1.getTime();
+      var diffInDays = Math.floor(diffInTime / (1000 * 3600 * 24));
+      document.getElementById("daysEstablished").dataset.number = diffInDays;
+    </script>
 
     <!--<section class="ftco-section testimony-section ftco-no-pt">
       <div class="container-fluid px-4">
