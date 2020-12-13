@@ -29,7 +29,7 @@
 
 	// loader
 	var loader = function() {
-		setTimeout(function() { 
+		setTimeout(function() {
 			if($('#ftco-loader').length > 0) {
 				$('#ftco-loader').removeClass('show');
 			}
@@ -145,19 +145,19 @@
 
 			if (st > 150) {
 				if ( !navbar.hasClass('scrolled') ) {
-					navbar.addClass('scrolled');	
+					navbar.addClass('scrolled');
 				}
-			} 
+			}
 			if (st < 150) {
 				if ( navbar.hasClass('scrolled') ) {
 					navbar.removeClass('scrolled sleep');
 				}
-			} 
+			}
 			if ( st > 350 ) {
 				if ( !navbar.hasClass('awake') ) {
-					navbar.addClass('awake');	
+					navbar.addClass('awake');
 				}
-				
+
 				if(sd.length > 0) {
 					sd.addClass('sleep');
 				}
@@ -175,9 +175,9 @@
 	};
 	scrollWindow();
 
-	
+
 	var counter = function() {
-		
+
 		$('#section-counter').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
@@ -186,7 +186,7 @@
 				$('.number').each(function(){
 					var $this = $(this),
 						num = $this.data('number');
-						console.log(num);
+						//console.log(num);
 					$this.animateNumber(
 					  {
 					    number: num,
@@ -194,7 +194,7 @@
 					  }, 2500
 					);
 				});
-				
+
 			}
 
 		} , { offset: '95%' } );
@@ -207,7 +207,7 @@
 		$('.ftco-animate').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -229,9 +229,9 @@
 							el.removeClass('item-animate');
 						},  k * 50, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '95%' } );
@@ -282,3 +282,50 @@
 
 })(jQuery);
 
+
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  //loop through a collection of all HTML elements:
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+
+    //menu only:
+    function activateNavItem() {
+      //get the attribute active-item of the element:
+      activeItem = elmnt.getAttribute("active-item");
+      if (activeItem) {
+        //find the correct nav item and add the active class to it
+        document.getElementById(activeItem).classList.add('active');
+      }
+    };
+
+    //all pages:
+    //get the attribute w3-include-html of the element:
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      //make an HTTP request using the attribute value as the file name:
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          //remove the attribute, and call this function once more:
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+          activateNavItem();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      //exit the function:
+      return;
+    }
+  }
+  //footer only:
+  function addCopyright() {
+    document.getElementById("copyrightYear").innerHTML = new Date().getFullYear();
+  };
+  addCopyright();
+};
+includeHTML();
