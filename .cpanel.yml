@@ -15,7 +15,9 @@ deployment:
     - /bin/cp CONTRIBUTING.md $DEPLOYPATH
     - /bin/cp curriculum.html $DEPLOYPATH
     - /bin/cp events.html $DEPLOYPATH
+    - /bin/cp footer.html $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp menu.html $DEPLOYPATH
     - /bin/cp README.md $DEPLOYPATH
     - /bin/cp recaps.html $DEPLOYPATH
     - /bin/cp semester1.html $DEPLOYPATH
