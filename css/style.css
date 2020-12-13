@@ -7377,7 +7377,7 @@ margin-bottom: 0.5rem;
     @media (min-width: 992px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:after {
         position: absolute;
-        bottom: 18px;
+        bottom: 16px;
         left: 0;
         right: 0;
         width: 70%;
@@ -8310,6 +8310,8 @@ textarea.form-control {
   .ftco-footer p {
     color: rgba(255, 255, 255, 0.7); }
   .ftco-footer a {
+      color: #fff; }
+  .ftco-footer a.quick-link {
     color: rgba(255, 255, 255, 0.7); }
     .ftco-footer a:hover {
       color: #fff; }
