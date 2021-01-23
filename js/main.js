@@ -329,3 +329,15 @@ function includeHTML() {
   addCopyright();
 };
 includeHTML();
+
+function iconToggle(icon, section) {
+  var isExpanded = $(event.target).attr("aria-expanded");
+  if ($(section).attr("class") == "collapsing") {
+    setInterval(50); //prevents double-clicking
+    iconToggle();
+  } else if (isExpanded == "true") {
+    $(icon).addClass("icon-plus").removeClass("icon-minus");
+  } else {
+    $(icon).addClass("icon-minus").removeClass("icon-plus");
+  }
+};
