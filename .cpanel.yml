@@ -8,6 +8,7 @@ deployment:
     - /bin/cp -R fonts $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R resources $DEPLOYPATH
     - /bin/cp -R scss $DEPLOYPATH
     - /bin/cp -R test $DEPLOYPATH
     - /bin/cp about.html $DEPLOYPATH
@@ -18,7 +19,6 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp menu.html $DEPLOYPATH
     - /bin/cp README.md $DEPLOYPATH
-    - /bin/cp recaps.html $DEPLOYPATH
     - /bin/cp semester1.html $DEPLOYPATH
     - /bin/cp semester2.html $DEPLOYPATH
     - /bin/cp prepos-6.config $DEPLOYPATH
