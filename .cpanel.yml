@@ -6,6 +6,7 @@ deployment:
     - /bin/cp -R events $DEPLOYPATH
     - /bin/cp -R favicon $DEPLOYPATH
     - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R icons-svg $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R resources $DEPLOYPATH
