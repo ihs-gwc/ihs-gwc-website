@@ -9118,3 +9118,7 @@ textarea.form-control {
 
 .back-to-all {
   font-size: 1.25rem }
+
+.contact-section .list-group img {
+  height: 2rem
+}
